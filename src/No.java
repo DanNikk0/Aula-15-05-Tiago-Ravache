@@ -1,29 +1,31 @@
 public class No {
 
+    private No esquerda;
+    private No direita;
+    private String conteudo;
+
+
     public No(String conteudo) {
-        this.esquerdo = null;
-        this.direito = null;
+        this.esquerda = null;
+        this.direita = null;
         this.conteudo = conteudo;
     }
 
-    private No esquerdo;
-    private No direito;
-    private String conteudo;
 
-    public No getEsquerdo() {
-        return esquerdo;
+    public No getEsquerda() {
+        return esquerda;
     }
 
-    public void setEsquerdo(No esquerdo) {
-        this.esquerdo = esquerdo;
+    public void setEsquerda(No esquerdo) {
+        this.esquerda = esquerdo;
     }
 
-    public No getDireito() {
-        return direito;
+    public No getDireita() {
+        return direita;
     }
 
-    public void setDireito(No direito) {
-        this.direito = direito;
+    public void setDireita(No direito) {
+        this.direita = direito;
     }
 
     public String getConteudo() {
@@ -33,4 +35,5 @@ public class No {
     public void setConteudo(String conteudo) {
         this.conteudo = conteudo;
     }
+
 }
