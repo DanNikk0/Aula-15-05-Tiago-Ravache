@@ -9,6 +9,7 @@ public class No {
         this.esquerda = null;
         this.direita = null;
         this.conteudo = conteudo;
+        this.balanceamentoNo = 0;
     }
 
 
