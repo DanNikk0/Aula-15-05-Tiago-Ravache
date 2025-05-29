@@ -36,4 +36,13 @@ public class No {
         this.conteudo = conteudo;
     }
 
+    private int balanceamentoNo;
+
+    public int getBalanceamentoNo() {
+        return balanceamentoNo;
+    }
+
+    public void setBalanceamentoNo(int balanceamentoNo) {
+        this.balanceamentoNo = balanceamentoNo;
+    }
 }
